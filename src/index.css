@@ -45,6 +45,7 @@ body {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+    overflow: hidden;
 }
 
 h1,h2,h3,h4,h5 {
@@ -110,6 +111,7 @@ img {
 @media screen and (max-width: 1024px){
     .container {
         width: var(--container-width-md);
+        overflow: hidden;
     }
 
     section {
@@ -120,6 +122,7 @@ img {
 @media screen and (max-width: 600px){
     .container {
         width: var(--container-width-sm);
+        overflow: hidden;
     }
 
     section > h2 {
